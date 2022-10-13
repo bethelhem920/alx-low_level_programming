@@ -1,7 +1,6 @@
 /*
  *  * File: 4-puts.c
- *   * Auth: Bethelhem Nigussu <375@nbethelhem920.com>
- *   
+ *   * Auth: Bethelhem Nigussu <375@nbethelhem920.com>   
  */
 
 #include <stdio.h>
