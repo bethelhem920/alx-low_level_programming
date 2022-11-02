@@ -1,8 +1,9 @@
 #include "main.h"
+
 /**
- *  * main - check the code
- *   *
- *    * Return: Always 0.
+ * _puts_recursion- prints string
+ *@s: stoes string value
+ * Return: Always 0.
  */
 void _puts_recursion(char *s)
 {
@@ -14,5 +15,5 @@ void _puts_recursion(char *s)
 	else
 	{
 		_putchar('\n');
-	}		
+	}
 }
