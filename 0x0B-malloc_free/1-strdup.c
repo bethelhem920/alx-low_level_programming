@@ -11,11 +11,9 @@ char *_strdup(char *str)
 {
 	char *cr;
 
-	int i;
-
 	if (str == NULL)
 		return (NULL);
-	cr = (char *)malloc(sizeof(char) * 4);
+	cr = (char *)malloc(sizeof(*str) * 4);
 
 	strcpy(cr, str);
 	return (cr);
