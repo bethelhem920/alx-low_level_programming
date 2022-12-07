@@ -44,7 +44,7 @@ int main(int argc, char *argv[])
 	
 	w = write(file_to, buff, r);
 
-	if (w == -1 || file_to == -1)
+	if (w == -1 || file_to == -1 || buff == NULL)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
 		exit(99);
