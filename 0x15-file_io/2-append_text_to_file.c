@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * append_text_to_file - it appends a text at the end of the file
- * 
+ *
  * @filename: name of the file
  * @text_content: a sting to add at the end of the file
  *
@@ -16,7 +16,7 @@ int append_text_to_file(const char *filename, char *text_content)
 
 	int app;
 
-	int i =0;
+	int i = 0;
 
 	if (filename == NULL)
 		return (-1);
@@ -33,7 +33,6 @@ int append_text_to_file(const char *filename, char *text_content)
 		i++;
 	}
 	app = write(fd, text_content, i);
-	
 	if (app == -1)
 		return (-1);
 
