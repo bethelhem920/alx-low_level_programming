@@ -2,6 +2,7 @@
 #include <stdlib.h>
 /**
  * read_textfile- reads a text file and prints it
+ *
  * @filename: the filename that is going to read
  * @letters: a no of letters it should read and print
  *
